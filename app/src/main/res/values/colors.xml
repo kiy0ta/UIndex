@@ -3,4 +3,10 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <!--  日付  -->
+    <color name="date_back_color">#000000</color>
+    <color name="date_text_color">#FFFFFF</color>
+    <color name="first_color">#E91E63</color>
+    <color name="second_color">#9C27B0</color>
+    <color name="third_color">#3F51B5</color>
 </resources>
