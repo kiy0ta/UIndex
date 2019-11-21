@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">UIndex</string>
+    <!--  first  -->
+    <string name="weak">weak</string>
+    <string name="medium">medium</string>
+    <string name="strong">strong</string>
+    <string name="very_strong">very_strong</string>
+    <string name="length_null">1文字以上、20文字以下で入力してください。</string>
+    <string name="length_short">このパスワードは脆弱性を含んでいます。</string>
+    <string name="length_medium">このパスワードはセキュリティが弱いです。</string>
+    <string name="length_strong">このパスワードはセキュリティが高いです。</string>
 </resources>
