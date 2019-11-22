@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         first_date.setOnClickListener {
             startActivity(Intent(this, FirstActivity::class.java))
         }
-        initDate(second_date, second_practice, "11/21", "パスワード")
+        initDate(second_date, second_practice, "11/22", "カルーセル")
         second_date.setOnClickListener {
             startActivity(Intent(this, SecondActivity::class.java))
         }

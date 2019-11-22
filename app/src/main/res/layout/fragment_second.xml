@@ -1,6 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/left_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="10dp"
+            android:text="◀"
+            android:textColor="@color/date_text_color"
+            android:textSize="30dp"></TextView>
+
+        <ImageView
+            android:id="@+id/first_image"
+            android:layout_width="60dp"
+            android:layout_height="160dp"
+            android:layout_toRightOf="@+id/left_arrow"
+            android:background="@color/first_color"
+            android:src="@drawable/ic_moomin"></ImageView>
+
+        <ImageView
+            android:id="@+id/second_image"
+            android:layout_width="60dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/first_image"
+            android:background="@color/second_color"
+            android:src="@drawable/ic_moomin"></ImageView>
+
+        <ImageView
+            android:id="@+id/third_image"
+            android:layout_width="60dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/second_image"
+            android:background="@color/third_color"
+            android:src="@drawable/ic_moomin"></ImageView>
+
+        <ImageView
+            android:id="@+id/forth_image"
+            android:layout_width="60dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/third_image"
+            android:background="@color/forth_color"
+            android:src="@drawable/ic_moomin"></ImageView>
+
+        <TextView
+            android:id="@+id/right_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_toRightOf="@+id/forth_image"
+            android:text="▶"
+            android:textColor="@color/date_text_color"
+            android:textSize="30dp"></TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <View
+            android:id="@+id/first_button"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/first_moomin_color"></View>
+
+        <View
+            android:id="@+id/second_button"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/first_button"
+            android:background="@color/carousel_non"></View>
+
+        <View
+            android:id="@+id/third_button"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/second_button"
+            android:background="@color/carousel_non"></View>
+
+        <View
+            android:id="@+id/forth_button"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_toRightOf="@+id/third_button"
+            android:background="@color/carousel_non"></View>
+
+    </RelativeLayout>
 
 </LinearLayout>

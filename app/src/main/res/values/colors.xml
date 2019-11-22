@@ -9,9 +9,33 @@
     <color name="first_color">#E91E63</color>
     <color name="second_color">#9C27B0</color>
     <color name="third_color">#3F51B5</color>
+    <color name="forth_color">#2196F3</color>
+    <color name="fifth_color">#00BCD4</color>
+    <color name="sixth_color">#009688</color>
+    <color name="seventh_color">#4CAF50</color>
+    <color name="eighth_color">#8BC34A</color>
     <!--  パスワードの強度  -->
     <color name="weak">#F44336</color>
     <color name="medium">#FFEB3B</color>
     <color name="strong">#8BC34A</color>
     <color name="very_strong">#03A9F4</color>
+    <!--  ムーミンの背景色  -->
+    <color name="first_moomin_color">#E91E63</color>
+    <color name="second_moomin_color">#9C27B0</color>
+    <color name="third_moomin_color">#3F51B5</color>
+    <color name="forth_moomin_color">#2196F3</color>
+    <color name="fifth_moomin_color">#00BCD4</color>
+    <color name="sixth_moomin_color">#009688</color>
+    <color name="seventh_moomin_color">#4CAF50</color>
+    <color name="eighth_moomin_color">#8BC34A</color>
+    <color name="nine_moomin_color">#CDDC39</color>
+    <color name="ten_moomin_color">#FFEB3B</color>
+    <color name="eleven_moomin_color">#FFC107</color>
+    <color name="twelve_moomin_color">#FF9800</color>
+    <color name="thirteen_moomin_color">#E76F95</color>
+    <color name="fourteen_moomin_color">#F7AE47</color>
+    <color name="fifteen_moomin_color">#9FC27D</color>
+    <color name="sixteen_moomin_color">#7FC2D1</color>
+    <!--  カルーセル  -->
+    <color name="carousel_non">#726F6F</color>
 </resources>
