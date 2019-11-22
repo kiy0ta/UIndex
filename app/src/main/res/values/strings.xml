@@ -9,4 +9,9 @@
     <string name="length_short">このパスワードは脆弱性を含んでいます。</string>
     <string name="length_medium">このパスワードはセキュリティが弱いです。</string>
     <string name="length_strong">このパスワードはセキュリティが高いです。</string>
+    <!--  fourth  -->
+    <string name="fourth_button">タグを追加する</string>
+    <string name="fourth_title">タグを追加する</string>
+    <string name="fourth_ok">OK</string>
+    <string name="fourth_cancel">CANCEL</string>
 </resources>

@@ -47,12 +47,12 @@
             android:src="@drawable/ic_moomin"></ImageView>
 
         <ImageView
-            android:id="@+id/forth_image"
+            android:id="@+id/fourth_image"
             android:layout_width="60dp"
             android:layout_height="160dp"
             android:layout_marginLeft="10dp"
             android:layout_toRightOf="@+id/third_image"
-            android:background="@color/forth_color"
+            android:background="@color/fourth_color"
             android:src="@drawable/ic_moomin"></ImageView>
 
         <TextView
@@ -61,7 +61,7 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="60dp"
-            android:layout_toRightOf="@+id/forth_image"
+            android:layout_toRightOf="@+id/fourth_image"
             android:text="▶"
             android:textColor="@color/date_text_color"
             android:textSize="30dp"></TextView>
@@ -97,7 +97,7 @@
             android:background="@color/carousel_non"></View>
 
         <View
-            android:id="@+id/forth_button"
+            android:id="@+id/fourth_button"
             android:layout_width="10dp"
             android:layout_height="10dp"
             android:layout_toRightOf="@+id/third_button"

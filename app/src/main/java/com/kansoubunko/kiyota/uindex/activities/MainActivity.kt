@@ -25,6 +25,10 @@ class MainActivity : AppCompatActivity() {
         third_date.setOnClickListener {
             startActivity(Intent(this, ThirdActivity::class.java))
         }
+        initDate(fourth_date, fourth_practice, "11/22", "タギング")
+        fourth_date.setOnClickListener {
+            startActivity(Intent(this, FourthActivity::class.java))
+        }
     }
 
     private fun initDate(

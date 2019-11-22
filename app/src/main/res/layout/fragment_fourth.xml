@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_yadon"></ImageView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/tag_area"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <!--        <TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="30dp"-->
+        <!--            android:background="@color/thirteen_moomin_color"-->
+        <!--            android:text="#かわいい"-->
+        <!--            android:gravity="center"-->
+        <!--            android:textColor="@color/date_text_color"-->
+        <!--            android:textSize="20dp"></TextView>-->
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dp"
+            android:background="@color/first_moomin_color"
+            android:gravity="center"
+            android:text="@string/fourth_button"
+            android:textColor="@color/date_text_color"
+            android:textSize="20dp"></Button>
+    </RelativeLayout>
+
+</LinearLayout>

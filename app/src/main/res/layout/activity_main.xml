@@ -108,17 +108,17 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/forth_date"
+            android:id="@+id/fourth_date"
             android:layout_width="60dp"
             android:layout_height="match_parent"
-            android:background="@color/forth_color"
+            android:background="@color/fourth_color"
             android:gravity="center_vertical"
             android:paddingLeft="4dp"
             android:textColor="@color/date_text_color"
             android:textSize="20dp"></TextView>
 
         <TextView
-            android:id="@+id/forth_practice"
+            android:id="@+id/fourth_practice"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
@@ -131,7 +131,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/forth_color"></View>
+        android:background="@color/fourth_color"></View>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -164,6 +164,70 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/fifth_color"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sixth_date"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@color/sixth_color"
+            android:gravity="center_vertical"
+            android:paddingLeft="4dp"
+            android:textColor="@color/date_text_color"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/sixth_practice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="@color/date_text_color"
+            android:textSize="20dp"></TextView>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/sixth_color"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/seventh_date"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@color/seventh_color"
+            android:gravity="center_vertical"
+            android:paddingLeft="4dp"
+            android:textColor="@color/date_text_color"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/seventh_practice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="@color/date_text_color"
+            android:textSize="20dp"></TextView>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/seventh_color"></View>
 
 
 </LinearLayout>

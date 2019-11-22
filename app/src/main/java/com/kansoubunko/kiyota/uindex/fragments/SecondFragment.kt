@@ -46,11 +46,11 @@ class SecondFragment : Fragment() {
         firstView = view.findViewById(R.id.first_image)
         secondView = view.findViewById(R.id.second_image)
         thirdView = view.findViewById(R.id.third_image)
-        forthView = view.findViewById(R.id.forth_image)
+        forthView = view.findViewById(R.id.fourth_image)
         firstButton = view.findViewById(R.id.first_button)
         secondButton = view.findViewById(R.id.second_button)
         thirdButton = view.findViewById(R.id.third_button)
-        forthButton = view.findViewById(R.id.forth_button)
+        forthButton = view.findViewById(R.id.fourth_button)
         this.sharedPreferences =
             this.activity?.getSharedPreferences(
                 PropertyName.PREFERENCE_TITLE,
@@ -164,7 +164,7 @@ class SecondFragment : Fragment() {
                     R.color.first_moomin_color,
                     R.color.second_moomin_color,
                     R.color.third_moomin_color,
-                    R.color.forth_moomin_color,
+                    R.color.fourth_moomin_color,
                     R.color.first_moomin_color,
                     firstButton
                 )
