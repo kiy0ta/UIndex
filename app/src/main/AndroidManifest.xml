@@ -28,6 +28,9 @@
         <activity
             android:name=".activities.FourthActivity"
             android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activities.FifthActivity"
+            android:label="@string/app_name"></activity>
     </application>
 
 </manifest>

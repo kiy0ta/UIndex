@@ -38,4 +38,8 @@
     <color name="sixteen_moomin_color">#7FC2D1</color>
     <!--  カルーセル  -->
     <color name="carousel_non">#726F6F</color>
+    <!--  メタモン  -->
+    <color name="metamon">#a484c0</color>
+    <color name="metamon_back">#00FFFFFF</color>
+
 </resources>
